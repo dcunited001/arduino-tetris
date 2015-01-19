@@ -7,6 +7,6 @@ set(${PROJECT_NAME}_BOARD uno)
 set(${PROJECT_NAME}_SRCS main.cpp)
 set(${PROJECT_NAME}_PORT /dev/tty.usbmodem1451)
 
-#link_directories(${ARDUINO_SDK}/libraries)
+link_directories(${CMAKE_CURRENT_SOURCE_DIR}/libraries)
 
 generate_arduino_firmware(${PROJECT_NAME})
