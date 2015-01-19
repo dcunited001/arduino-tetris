@@ -4,3 +4,12 @@
 [submodule "libraries/PCD8544"]
 	path = libraries/PCD8544
 	url = git@github.com:carlosefr/pcd8544
+[submodule "libraries/Psx"]
+	path = libraries/Psx
+	url = git@github.com:dcunited001/arduino-psx.git
+[submodule "libraries/Adafruit_GFX"]
+	path = libraries/Adafruit_GFX
+	url = git@github.com:adafruit/Adafruit-GFX-Library
+[submodule "libraries/Adafruit_PCD8544"]
+	path = libraries/Adafruit_PCD8544
+	url = git@github.com:adafruit/Adafruit-PCD8544-Nokia-5110-LCD-library
